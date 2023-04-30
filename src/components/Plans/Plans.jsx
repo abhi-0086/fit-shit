@@ -6,6 +6,8 @@ import "./Plans.css";
 const Plans = () => {
   return (
     <div className="plans-container">
+      <div className="blur plans-blur-1"></div>
+      <div className="blur plans-blur-2"></div>
       {/* plans header */}
       <div className="programs-header" style={{ gap: "2rem" }}>
         <span className="stroke-text">READY TO START</span>
@@ -30,7 +32,7 @@ const Plans = () => {
             </div>
 
             <div>
-              <span>See more benefits -> </span>
+              <span>See more benefits -&gt; </span>
             </div>
             <button className="btn">Join Now</button>
           </div>
